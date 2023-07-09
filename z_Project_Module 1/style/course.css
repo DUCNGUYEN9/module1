@@ -1,0 +1,7 @@
+form label::after {
+  content: "(*)";
+  color: red;
+}
+#form-radio label::after {
+  content: "";
+}

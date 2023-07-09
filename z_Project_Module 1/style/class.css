@@ -1,0 +1,9 @@
+form label::after {
+  content: "(*)";
+  color: red;
+}
+
+.comment::after,
+.status::after {
+  content: "";
+}
